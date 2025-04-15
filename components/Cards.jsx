@@ -41,12 +41,36 @@ const avgoffinalexamnum = avgofexnum/totexamnum.length
         </div>
         <div className='border-zinc-700 border rounded-md bg-zinc-900 text-white p-2 m-2'>
             <div className='flex items-center justify-between'>
-                <h1 className='font-bold text-sm text-zinc-300'>New Anouncement</h1>
+                <h1 className='font-bold text-sm text-zinc-300'>Sample Data</h1>
               
             </div>
 
-            <span className='text-white font-bold text-4xl'>7</span>
-            <p className='text-sm'>Last school update</p>
+            {/* <span className='text-white font-bold text-4xl'>7</span> */}
+            <pre style={{ whiteSpace: 'pre-wrap', fontSize: '0.875rem' }}>
+{`
+"Hours_Studied": "23",
+"Attendance": "84",
+"Parental_Involvement": "Low",
+"Access_to_Resources": "High",
+"Extracurricular_Activities": "No",
+"Sleep_Hours": "7",
+"Previous_Scores": "73",
+"Motivation_Level": "Low",
+"Internet_Access": "Yes",
+"Tutoring_Sessions": "0",
+"Family_Income": "Low",
+"Teacher_Quality": "Medium",
+"School_Type": "Public",
+"Peer_Influence": "Positive",
+"Physical_Activity": "3",
+"Learning_Disabilities": "No",
+"Parental_Education_Level": "High School",
+"Distance_from_Home": "Near",
+"Gender": "Male",
+"Exam_Score": "67"
+`}
+</pre>
+
         </div>
         <div className='border-zinc-700 border rounded-md bg-zinc-900 text-white p-2 m-2'>
             <div className='flex items-center justify-between'>
