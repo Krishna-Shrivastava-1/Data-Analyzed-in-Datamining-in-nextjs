@@ -75,11 +75,11 @@ const avgoffinalexamnum = avgofexnum/totexamnum.length
         <div className='border-zinc-700 border rounded-md bg-zinc-900 text-white p-2 m-2'>
             <div className='flex items-center justify-between'>
                 <h1 className='font-bold text-sm text-zinc-300'>Average Score</h1>
-                <Badge variant="outline" className='text-white font-bold ml-8 border-zinc-500'><IconTrendingUp className='text-white text-xl' />+8.5%</Badge>
+                <Badge variant="outline" className='text-white font-bold ml-8 border-zinc-500'><IconTrendingUp className='text-white text-xl' />+4.5%</Badge>
             </div>
 
             <span className='text-white font-bold text-4xl'>{avgoffinalexamnum.toFixed(2)}%</span>
-            <p className='text-sm'>Overall attendance rate</p>
+            <p className='text-sm'>Overall Exam Score</p>
         </div>
       </div>
     )
